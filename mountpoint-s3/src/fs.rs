@@ -709,12 +709,13 @@ where
         };
 
         if offset != dir_handle.offset() {
-            return Err(err!(
+            /*return Err(err!(
                 libc::EINVAL,
                 "offset mismatch, expected={}, actual={}",
                 dir_handle.offset(),
                 offset
-            ));
+            ));*/
+            return Ok(reply);
         }
 
         if dir_handle.offset() < 1 {

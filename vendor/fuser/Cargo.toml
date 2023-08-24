@@ -25,6 +25,7 @@ page_size = "0.4.2"
 serde = { version = "1.0.102", features = ["std", "derive"], optional = true }
 smallvec = "1.6.1"
 zerocopy = "0.6"
+byteorder = "1.4"
 
 [dev-dependencies]
 env_logger = "0.9"

@@ -1264,6 +1264,7 @@ name = "fuser"
 version = "0.12.0"
 dependencies = [
  "bincode",
+ "byteorder",
  "clap 3.2.25",
  "env_logger",
  "libc",
